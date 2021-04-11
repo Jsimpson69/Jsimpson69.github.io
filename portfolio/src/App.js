@@ -14,7 +14,7 @@ function App() {
   }, []);
 
   if (!user) {
-    return <div />;
+    return <div>hello</div>;
   }
 
   return <Pages user={user} />;
